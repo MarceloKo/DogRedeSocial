@@ -8,10 +8,14 @@ body{
     --type-first:Helvetica,Arial,sans-serif;
     --type-second: 'Spectral', Georgia;
     font-family: var(--type-first);
+    padding-top: 4rem;
 }
 
 h1,h2,h3,h4,p{
     margin: 0;
+}
+a{
+    text-decoration: none;
 }
 
 ul,li{
