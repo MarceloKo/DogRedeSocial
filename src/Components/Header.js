@@ -13,12 +13,15 @@ const Header = () => {
                <Link className={styles.logo} to="/" aria-label='Dogs - Home'>
                    <Dogs/>
                </Link>
+               <div style={{display:'flex'}}>
                {data ? (
                <Link to="/conta" className={styles.login}>{data.nome}</Link>
                   ): (
                   
                 <Link to="/login" className={styles.login}>Login / Criar</Link>)}
-                <button onClick={userLogout}>Sair</button>
+                <button onClick={userLogout} style={{marginLeft:'10px'}}>Sair</button>
+               </div>
+
            </nav>
         </header>
     )
