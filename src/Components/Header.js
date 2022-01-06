@@ -19,7 +19,7 @@ const Header = () => {
                   ): (
                   
                 <Link to="/login" className={styles.login}>Login / Criar</Link>)}
-                <button onClick={userLogout} style={{marginLeft:'10px'}}>Sair</button>
+               
                </div>
 
            </nav>
