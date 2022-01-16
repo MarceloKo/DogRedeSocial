@@ -77,3 +77,14 @@ export function PHOTO_POST(formData, token) {
       },
     };
   }
+
+  
+  export function PHOTO_GET(id) {
+    return {
+      url:`${API_URL}/api/photo/${id}`,
+      options: {
+        method: 'GET',
+        cache:'no-store'
+      },
+    };
+  }
