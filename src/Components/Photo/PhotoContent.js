@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import PhotoComments from './PhotoComments';
 import styles from './PhotoContent.module.css'
 const PhotoContent = ({data}) => {
-    console.log(data)
-    console.log('data')
+  
     const{photo,comments} = data;
     return (
         <div className={styles.photo}>
