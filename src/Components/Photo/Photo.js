@@ -17,7 +17,10 @@ const Photo = () => {
 
     if(error) return <Error error={error}/>
     if(loading) return <Loading/>
-    if(data)return (<section className='container mainContainer'><PhotoContent single={true} data={data}/></section>)
+    if(data)return (
+    <section className='container mainContainer'>
+        <PhotoContent single={true} data={data}/>
+    </section>)
     else return null;
 }
 
